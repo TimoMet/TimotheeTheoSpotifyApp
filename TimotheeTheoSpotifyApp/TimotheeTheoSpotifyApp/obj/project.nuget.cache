@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1FRYg+CmkHuqiBtctmI6RCI4q6FE9O1Kbg0fDKi+l6JQKNB82lxH48YNPVwIEPgXh8V907kJarATKiXK3twTSA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Timo\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Timo\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Timo\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,13 @@
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\bin\Debug\netstandard2.0\TimotheeTheoSpotifyApp.deps.json
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\bin\Debug\netstandard2.0\TimotheeTheoSpotifyApp.dll
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\bin\Debug\netstandard2.0\TimotheeTheoSpotifyApp.pdb
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.csproj.AssemblyReference.cache
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.AssemblyInfoInputs.cache
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.AssemblyInfo.cs
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.csproj.CoreCompileInputs.cache
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.dll
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.pdb

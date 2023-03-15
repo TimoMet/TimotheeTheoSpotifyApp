@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ErGnQ5HfDfgklmooHr56Z7GYxS3SF6di/uUCIcxxq3YnNKDe+kFfhEIEUkDYgkU2i2ngT4eFrq9JK72riGuJ6A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.iOS\\TimotheeTheoSpotifyApp.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Timo\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
+  ],
+  "logs": []
+}
