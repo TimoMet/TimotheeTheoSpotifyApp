@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.iOS\\TimotheeTheoSpotifyApp.iOS.csproj",
-        "projectName": "TimotheeTheoSpotifyApp.iOS.csproj",
+        "projectName": "TimotheeTheoSpotifyApp.iOS",
         "projectPath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.iOS\\TimotheeTheoSpotifyApp.iOS.csproj",
         "packagesPath": "C:\\Users\\Timo\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.iOS\\obj\\",

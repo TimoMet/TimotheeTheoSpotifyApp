@@ -11,3 +11,7 @@ C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\Timoth
 C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.dll
 C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\TimotheeTheoSpotifyApp.pdb
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\Views\Page1.xaml.g.cs
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\Views\Page2.xaml.g.cs
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\Views\Page3.xaml.g.cs
+C:\Users\Timo\RiderProjects\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\TimotheeTheoSpotifyApp\obj\Debug\netstandard2.0\Views\Page4.xaml.g.cs
