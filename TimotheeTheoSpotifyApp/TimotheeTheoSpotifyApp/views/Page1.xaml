@@ -2,20 +2,41 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TimotheeTheoSpotifyApp.Views.Page1">
-    <FlexLayout Direction="Column"
-                AlignItems="Center"
-                JustifyContent="SpaceEvenly">
+             x:Class="TimotheeTheoSpotifyApp.Views.Page1"
+             >
+              
+       <FlexLayout Direction="Column"
+                   AlignItems="Center"
+                   JustifyContent="SpaceEvenly">
 
         <Label Text="Bienvenue sur ma première application Xamarin !"
                Padding="5,0,5,0"
                HorizontalTextAlignment="Center"
                FontSize="Title" />
-        
+
         <Label Text="Dans cette application, nous allons afficher diverses informations liées à l'API Spotify."
                Padding="5,0,5,0"
                HorizontalTextAlignment="Center"
                FontSize="Subtitle" />
+
+        <FlexLayout Direction="Row"
+                    AlignItems="Center"
+                    JustifyContent="SpaceEvenly"
+                    HeightRequest="100">
+            <Image Source="spotify.png"
+                   WidthRequest="100"
+                   MinimumWidthRequest="50" />
+            <Image Source="xamarin.png"
+                   WidthRequest="100"
+                   MinimumWidthRequest="50" />
+        </FlexLayout>
+
+        <Button Text="Cliquez Moi!:)"
+                BackgroundColor="Green"
+                TextColor="White"
+                WidthRequest="150"
+                HeightRequest="50"
+                FontSize="Medium" />
 
     </FlexLayout>
 </ContentPage>
