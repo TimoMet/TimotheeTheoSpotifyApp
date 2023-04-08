@@ -40,6 +40,7 @@
                 WidthRequest="150"
                 HeightRequest="50"
                 FontSize="Medium"
+                Clicked="Button_Clicked"
                 />  
 
         <Grid RowSpacing="7" ColumnSpacing="0" Padding="0"
@@ -57,26 +58,26 @@
                 <ColumnDefinition Width="*" />
                 <ColumnDefinition Width="*" />
             </Grid.ColumnDefinitions>
-            <ContentView Grid.Row="0" Grid.Column="0" BackgroundColor="Green" WidthRequest="225"
+            <ContentView Grid.Row="0" Grid.Column="0" BackgroundColor="{Binding Color1}" WidthRequest="225"
                          MinimumWidthRequest="50" />
             <ContentView Grid.Row="0" Grid.Column="1" BackgroundColor="White" />
-            <ContentView Grid.Row="0" Grid.Column="2" BackgroundColor="Green" />
+            <ContentView Grid.Row="0" Grid.Column="2" BackgroundColor="{Binding Color1}" />
             <ContentView Grid.Row="0" Grid.Column="3" BackgroundColor="White" />
-            <ContentView Grid.Row="0" Grid.Column="4" BackgroundColor="Green" />
+            <ContentView Grid.Row="0" Grid.Column="4" BackgroundColor="{Binding Color1}" />
             <ContentView Grid.Row="1" Grid.Column="0" BackgroundColor="White" />
-            <ContentView Grid.Row="1" Grid.Column="1" BackgroundColor="Green" />
+            <ContentView Grid.Row="1" Grid.Column="1" BackgroundColor="{Binding Color1}" />
             <ContentView Grid.Row="1" Grid.Column="2" BackgroundColor="White" />
-            <ContentView Grid.Row="1" Grid.Column="3" BackgroundColor="Green" />
+            <ContentView Grid.Row="1" Grid.Column="3" BackgroundColor="{Binding Color1}" />
             <ContentView Grid.Row="1" Grid.Column="4" BackgroundColor="White" />
-            <ContentView Grid.Row="2" Grid.Column="0" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="2" Grid.Column="0" BackgroundColor="{Binding Color2}" />
             <ContentView Grid.Row="2" Grid.Column="1" BackgroundColor="White" />
-            <ContentView Grid.Row="2" Grid.Column="2" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="2" Grid.Column="2" BackgroundColor="{Binding Color2}" />
             <ContentView Grid.Row="2" Grid.Column="3" BackgroundColor="White" />
-            <ContentView Grid.Row="2" Grid.Column="4" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="2" Grid.Column="4" BackgroundColor="{Binding Color2}" />
             <ContentView Grid.Row="3" Grid.Column="0" BackgroundColor="White" />
-            <ContentView Grid.Row="3" Grid.Column="1" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="3" Grid.Column="1" BackgroundColor="{Binding Color2}" />
             <ContentView Grid.Row="3" Grid.Column="2" BackgroundColor="White" />
-            <ContentView Grid.Row="3" Grid.Column="3" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="3" Grid.Column="3" BackgroundColor="{Binding Color2}" />
             <ContentView Grid.Row="3" Grid.Column="4" BackgroundColor="White" />
         </Grid>
         
