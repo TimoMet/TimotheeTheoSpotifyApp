@@ -3,18 +3,21 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TimotheeTheoSpotifyApp.Views.Page1"
-             >
-              
-       <FlexLayout Direction="Column"
-                   AlignItems="Center"
-                   JustifyContent="SpaceEvenly">
+             BackgroundColor="#141920">
+
+    <FlexLayout
+        Direction="Column"
+        AlignItems="Center"
+        JustifyContent="SpaceEvenly">
 
         <Label Text="Bienvenue sur ma première application Xamarin !"
+               TextColor="White"
                Padding="5,0,5,0"
                HorizontalTextAlignment="Center"
                FontSize="Title" />
 
         <Label Text="Dans cette application, nous allons afficher diverses informations liées à l'API Spotify."
+               TextColor="White"
                Padding="5,0,5,0"
                HorizontalTextAlignment="Center"
                FontSize="Subtitle" />
@@ -36,7 +39,47 @@
                 TextColor="White"
                 WidthRequest="150"
                 HeightRequest="50"
-                FontSize="Medium" />
+                FontSize="Medium"
+                />  
 
+        <Grid RowSpacing="7" ColumnSpacing="0" Padding="0"
+              HeightRequest="200">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+                <RowDefinition Height="*" />
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <ContentView Grid.Row="0" Grid.Column="0" BackgroundColor="Green" WidthRequest="225"
+                         MinimumWidthRequest="50" />
+            <ContentView Grid.Row="0" Grid.Column="1" BackgroundColor="White" />
+            <ContentView Grid.Row="0" Grid.Column="2" BackgroundColor="Green" />
+            <ContentView Grid.Row="0" Grid.Column="3" BackgroundColor="White" />
+            <ContentView Grid.Row="0" Grid.Column="4" BackgroundColor="Green" />
+            <ContentView Grid.Row="1" Grid.Column="0" BackgroundColor="White" />
+            <ContentView Grid.Row="1" Grid.Column="1" BackgroundColor="Green" />
+            <ContentView Grid.Row="1" Grid.Column="2" BackgroundColor="White" />
+            <ContentView Grid.Row="1" Grid.Column="3" BackgroundColor="Green" />
+            <ContentView Grid.Row="1" Grid.Column="4" BackgroundColor="White" />
+            <ContentView Grid.Row="2" Grid.Column="0" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="2" Grid.Column="1" BackgroundColor="White" />
+            <ContentView Grid.Row="2" Grid.Column="2" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="2" Grid.Column="3" BackgroundColor="White" />
+            <ContentView Grid.Row="2" Grid.Column="4" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="3" Grid.Column="0" BackgroundColor="White" />
+            <ContentView Grid.Row="3" Grid.Column="1" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="3" Grid.Column="2" BackgroundColor="White" />
+            <ContentView Grid.Row="3" Grid.Column="3" BackgroundColor="CornflowerBlue" />
+            <ContentView Grid.Row="3" Grid.Column="4" BackgroundColor="White" />
+        </Grid>
+        
     </FlexLayout>
+    
 </ContentPage>
