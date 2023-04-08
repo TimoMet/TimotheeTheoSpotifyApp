@@ -3,11 +3,19 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="TimotheeTheoSpotifyApp.Views.Page1">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Hello, world!"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
-        </StackLayout>
-    </ContentPage.Content>
+    <FlexLayout Direction="Column"
+                AlignItems="Center"
+                JustifyContent="SpaceEvenly">
+
+        <Label Text="Bienvenue sur ma première application Xamarin !"
+               Padding="5,0,5,0"
+               HorizontalTextAlignment="Center"
+               FontSize="Title" />
+        
+        <Label Text="Dans cette application, nous allons afficher diverses informations liées à l'API Spotify."
+               Padding="5,0,5,0"
+               HorizontalTextAlignment="Center"
+               FontSize="Subtitle" />
+
+    </FlexLayout>
 </ContentPage>
