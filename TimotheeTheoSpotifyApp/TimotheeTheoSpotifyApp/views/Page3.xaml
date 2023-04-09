@@ -2,12 +2,34 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TimotheeTheoSpotifyApp.Views.Page3">
+             xmlns:web="clr-namespace:SpotifyAPI.Web;assembly=SpotifyAPI.Web"
+             x:Class="TimotheeTheoSpotifyApp.Views.Page3" x:DataType="web:FullAlbum">
     <ContentPage.Content>
         <StackLayout>
-            <Label Text="Hello, world!"
+            <Label Text="{Binding  Name, StringFormat='Nom = {0:F2}'}"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="CenterAndExpand" />
+            <Image Source="{Binding Images[0].Url}"></Image>
+            <Label Text="{Binding  Artists[0].Name, StringFormat='Artiste = {0:F2}'}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+            <Label Text="{Binding  ReleaseDate, StringFormat='Date de réalisation = {0:F2}'}"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+            
+            <ListView ItemsSource="{Binding Tracks.Items}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell x:DataType="web:SimpleTrack">
+                            <StackLayout>
+                                <Label Text="{Binding Name }" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
         </StackLayout>
+
     </ContentPage.Content>
 </ContentPage>

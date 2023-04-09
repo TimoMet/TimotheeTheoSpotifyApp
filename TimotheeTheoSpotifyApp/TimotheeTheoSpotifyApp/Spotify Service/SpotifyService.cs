@@ -13,6 +13,13 @@ namespace TimotheeTheoSpotifyApp.Spotify_Service
             Client = new SpotifyClient(Token);
         }
 
+        public async Task<FullAlbum> GetAGoodBringMeTheHorizonAlbum()
+        {
+            var album = Client.Albums.Get("0e1WaSNDZnoPixaxDNdWo4");
+            await album.ConfigureAwait(false);
+            return await album;
+        }
+
         public async Task<FullArtist> GetImagineDragons()
         {
             var artist = Client.Artists.Get("53XhwfbYqKCa1cC15pYq2q");
