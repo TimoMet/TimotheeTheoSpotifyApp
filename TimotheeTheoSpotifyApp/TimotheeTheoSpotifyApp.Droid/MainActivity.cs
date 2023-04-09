@@ -8,7 +8,7 @@ using Android.OS;
 
 namespace TimotheeTheoSpotifyApp.Droid
 {
-    [Activity(Label = "TimotheeTheoSpotifyApp", Theme = "@style/MainTheme", MainLauncher = true,
+    [Activity(Label = "TimotheeTheoSpotifyApp", Icon="@drawable/spoxamarin", Theme = "@style/MainTheme", MainLauncher = true,
         ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity
     {
