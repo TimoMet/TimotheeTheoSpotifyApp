@@ -10,8 +10,13 @@ namespace TimotheeTheoSpotifyApp.Views
         public Page3()
         {
             InitializeComponent();
-            var album = new SpotifyService().GetAGoodBringMeTheHorizonAlbum();
-            BindingContext = album.Result;
+            LoadData();
+        }
+        
+        private async void LoadData()
+        {
+            var album = await new SpotifyService().GetAGoodBringMeTheHorizonAlbum();
+            BindingContext = album;
         }
     }
 }
