@@ -60,6 +60,10 @@
         <None Include="Properties\AndroidManifest.xml" />
     </ItemGroup>
     <ItemGroup>
+        <AndroidResource Include="Resources\drawable\artist.png" />
+        <AndroidResource Include="Resources\drawable\diskLogo.png" />
+        <AndroidResource Include="Resources\drawable\home.png" />
+        <AndroidResource Include="Resources\drawable\logospot.png" />
         <AndroidResource Include="Resources\drawable\spotify.png" />
         <AndroidResource Include="Resources\drawable\xamarin.png" />
         <AndroidResource Include="Resources\layout\Tabbar.axml" />
