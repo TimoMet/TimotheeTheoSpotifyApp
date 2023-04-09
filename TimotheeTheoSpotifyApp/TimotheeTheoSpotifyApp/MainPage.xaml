@@ -4,17 +4,31 @@
        xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
        xmlns:views="clr-namespace:TimotheeTheoSpotifyApp.Views;assembly=TimotheeTheoSpotifyApp"
        x:Class="TimotheeTheoSpotifyApp.MainPage">
-<TabBar>
-        <Tab Title="1">
+    <Shell.Resources>
+        <Style TargetType="TabBar">
+            <Setter Property="Shell.TabBarBackgroundColor"
+                    Value="CornflowerBlue" />
+            <Setter Property="Shell.TabBarTitleColor"
+                    Value="Black" />
+            <Setter Property="Shell.TabBarUnselectedColor"
+                    Value="AntiqueWhite" />
+        </Style>
+    </Shell.Resources>
+    <TabBar>
+        <Tab Title="Accueil"
+             Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate views:Page1}" />
         </Tab>
-        <Tab Title="2">
+        <Tab Title="Artiste"
+             Icon="artist.png">
             <ShellContent ContentTemplate="{DataTemplate views:Page2}" />
         </Tab>
-        <Tab Title="3">
+        <Tab Title="Album"
+             Icon="diskLogo.png">
             <ShellContent ContentTemplate="{DataTemplate views:Page3}" />
         </Tab>
-        <Tab Title="4">
+        <Tab Title="Supplément"
+             Icon="logospot.png">
             <ShellContent ContentTemplate="{DataTemplate views:Page4}" />
         </Tab>
 
