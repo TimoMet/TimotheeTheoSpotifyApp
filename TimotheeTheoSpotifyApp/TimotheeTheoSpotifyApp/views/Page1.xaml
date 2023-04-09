@@ -22,17 +22,15 @@
                HorizontalTextAlignment="Center"
                FontSize="Subtitle" />
 
-        <FlexLayout Direction="Row"
-                    AlignItems="Center"
-                    JustifyContent="SpaceEvenly"
-                    HeightRequest="100">
+        <StackLayout Orientation="Horizontal"
+                     HeightRequest="100">
             <Image Source="spotify.png"
                    WidthRequest="100"
                    MinimumWidthRequest="50" />
             <Image Source="xamarin.png"
                    WidthRequest="100"
                    MinimumWidthRequest="50" />
-        </FlexLayout>
+        </StackLayout>
 
         <Button Text="Cliquez Moi!:)"
                 BackgroundColor="Green"

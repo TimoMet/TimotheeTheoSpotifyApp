@@ -11,7 +11,7 @@ namespace TimotheeTheoSpotifyApp.Views
         private Page1ViewModel viewModel;
 
         public Page1()
-        {
+        {   
             InitializeComponent();
 
             viewModel = new Page1ViewModel();
@@ -22,5 +22,6 @@ namespace TimotheeTheoSpotifyApp.Views
         {
             viewModel.InvertColors();
         }
+
     }
-    }
+}
