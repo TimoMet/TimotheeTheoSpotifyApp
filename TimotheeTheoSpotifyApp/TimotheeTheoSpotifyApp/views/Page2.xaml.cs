@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿using TimotheeTheoSpotifyApp.Spotify_Service;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -15,6 +10,13 @@ namespace TimotheeTheoSpotifyApp.Views
         public Page2()
         {
             InitializeComponent();
+            LoadData();
+        }
+        
+        private async void LoadData()
+        {
+            var imagineDragons = await new SpotifyService().GetImagineDragons();
+            BindingContext = imagineDragons;
         }
     }
 }

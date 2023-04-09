@@ -2,6 +2,35 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SpotifyAPI.Web/6.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
@@ -145,6 +174,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SpotifyAPI.Web": "6.2.2",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -156,6 +186,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SpotifyAPI.Web/6.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
@@ -299,6 +358,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SpotifyAPI.Web": "6.2.2",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -310,6 +370,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SpotifyAPI.Web/6.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
@@ -453,6 +542,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SpotifyAPI.Web": "6.2.2",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -464,6 +554,35 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "Newtonsoft.Json/13.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "SpotifyAPI.Web/6.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/SpotifyAPI.Web.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Forms/5.0.0.2012": {
         "type": "package",
         "compile": {
@@ -607,6 +726,7 @@
         "type": "project",
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
+          "SpotifyAPI.Web": "6.2.2",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -619,6 +739,50 @@
     }
   },
   "libraries": {
+    "Newtonsoft.Json/13.0.1": {
+      "sha512": "ppPFpBcvxdsfUonNcvITKqLl3bqxWbDCZIzDWHzjpdAHRFfZe0Dw9HmA0+za13IdyrgJwpkDTDA9fHaxOrt20A==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.1.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "SpotifyAPI.Web/6.2.2": {
+      "sha512": "WNAqhQYg1xXNCPZ4QKavwFl05wXZ8XiHT89u3SrMeGlPPpJETzKmfozk5BoLaTCRV2HyceGERRrHOvK/BNtC2A==",
+      "type": "package",
+      "path": "spotifyapi.web/6.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net5.0/SpotifyAPI.Web.dll",
+        "lib/net5.0/SpotifyAPI.Web.xml",
+        "lib/netstandard2.0/SpotifyAPI.Web.dll",
+        "lib/netstandard2.0/SpotifyAPI.Web.xml",
+        "lib/netstandard2.1/SpotifyAPI.Web.dll",
+        "lib/netstandard2.1/SpotifyAPI.Web.xml",
+        "spotifyapi.web.6.2.2.nupkg.sha512",
+        "spotifyapi.web.nuspec"
+      ]
+    },
     "Xamarin.Forms/5.0.0.2012": {
       "sha512": "Rqc6xvWR/sf+Db5+qRCFmuYTWVp04QWRfwPto2/JHbShSy4Ed53Q2jpoFzsoloXkJA6saD236PlaWAhT6vI4gw==",
       "type": "package",
@@ -843,6 +1007,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "SpotifyAPI.Web >= 6.2.2",
       "TimotheeTheoSpotifyApp >= 1.0.0",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -889,6 +1054,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "SpotifyAPI.Web": {
+            "target": "Package",
+            "version": "[6.2.2, )"
+          },
           "Xamarin.Forms": {
             "target": "Package",
             "version": "[5.0.0.2012, )"

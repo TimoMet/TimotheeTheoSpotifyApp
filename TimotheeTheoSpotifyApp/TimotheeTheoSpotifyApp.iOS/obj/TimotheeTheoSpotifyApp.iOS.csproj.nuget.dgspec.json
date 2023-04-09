@@ -42,6 +42,10 @@
       "frameworks": {
         "xamarinios10": {
           "dependencies": {
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
             "Xamarin.Forms": {
               "target": "Package",
               "version": "[5.0.0.2012, )"
@@ -107,6 +111,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[6.2.2, )"
             },
             "Xamarin.Forms": {
               "target": "Package",

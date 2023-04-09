@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "tTptsfXemH59+YClPfVDQlqArRcJ+6SBi7M7luGNEPAJuvAqXWCKiMgcfox52LFtkeA8Jo27K2r2Xxtpe8nS9A==",
+  "dgSpecHash": "Kx6T13pSwQY7/meWXb7S/tvGkOeIOFQuTEXmba7QoOxVCazryo0uoXXkJoLa+SEXXNeSMkdJgEn2vV/ywiTnDw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.iOS\\TimotheeTheoSpotifyApp.iOS.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Timo\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\Timo\\.nuget\\packages\\spotifyapi.web\\6.2.2\\spotifyapi.web.6.2.2.nupkg.sha512",
     "C:\\Users\\Timo\\.nuget\\packages\\xamarin.forms\\5.0.0.2012\\xamarin.forms.5.0.0.2012.nupkg.sha512"
   ],
   "logs": []
