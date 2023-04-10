@@ -2288,39 +2288,32 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Timo\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\Theo2\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\TimotheeTheoSpotifyApp.Droid.csproj",
+      "projectUniqueName": "C:\\Users\\Theo2\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\TimotheeTheoSpotifyApp.Droid.csproj",
       "projectName": "TimotheeTheoSpotifyApp.Droid",
-      "projectPath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\TimotheeTheoSpotifyApp.Droid.csproj",
-      "packagesPath": "C:\\Users\\Timo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\obj\\",
+      "projectPath": "C:\\Users\\Theo2\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\TimotheeTheoSpotifyApp.Droid.csproj",
+      "packagesPath": "C:\\Users\\Theo2\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Theo2\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\Timo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Theo2\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "monoandroid11.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "monoandroid11.0": {
           "projectReferences": {
-            "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.csproj": {
-              "projectPath": "C:\\Users\\Timo\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.csproj"
+            "C:\\Users\\Theo2\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.csproj": {
+              "projectPath": "C:\\Users\\Theo2\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.csproj"
             }
           }
         }

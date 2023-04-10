@@ -5,7 +5,7 @@ namespace TimotheeTheoSpotifyApp.Spotify_Service
 {
     class SpotifyService
     {
-        private const string Token = "BQCngMAaFAgWvlRwA5YbQ7h2jnYuTHDharZWn1BhnAi0nTdmWmLUwicFxXAK4K2Kf4iiTITkQuupjp0CMdW-iSPbrxJlw_eaUPfTTVhRcaSTP-bw5806";
+        private const string Token = "BQAFYR9k8v6ZF0P5MSyqlMMblFevlXg-RznwfEtsL2akDwnjoAXuXp6BhcGEyeyG44GCNHUjVPCzgoROiVVhF7LJcQPhhk_feiIQa2MhfPckAj0OCkiF";
         private readonly SpotifyClient Client;
 
         public SpotifyService()

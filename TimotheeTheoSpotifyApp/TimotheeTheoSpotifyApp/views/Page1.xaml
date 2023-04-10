@@ -25,10 +25,11 @@
         <StackLayout Orientation="Horizontal"
                      HeightRequest="100">
             <Image Source="spotify.png"
-                   WidthRequest="100"
+                   WidthRequest="120"
                    MinimumWidthRequest="50" />
+            <BoxView WidthRequest="75" />
             <Image Source="xamarin.png"
-                   WidthRequest="100"
+                   WidthRequest="120"
                    MinimumWidthRequest="50" />
         </StackLayout>
 

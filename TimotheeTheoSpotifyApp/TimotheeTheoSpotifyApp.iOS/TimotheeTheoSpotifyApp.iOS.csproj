@@ -115,5 +115,14 @@
             <Name>TimotheeTheoSpotifyApp</Name>
         </ProjectReference>
     </ItemGroup>
+    <ItemGroup>
+      <BundleResource Include="Resources\artist.png" />
+      <BundleResource Include="Resources\diskLogo.png" />
+      <BundleResource Include="Resources\home.png" />
+      <BundleResource Include="Resources\logospot.png" />
+      <BundleResource Include="Resources\spotify.png" />
+      <BundleResource Include="Resources\spoxamarin.png" />
+      <BundleResource Include="Resources\xamarin.png" />
+    </ItemGroup>
     <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
