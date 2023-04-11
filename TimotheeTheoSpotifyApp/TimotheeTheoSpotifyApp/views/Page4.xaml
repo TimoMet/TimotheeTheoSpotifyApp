@@ -27,6 +27,7 @@
                         <ViewCell x:DataType="web:Image">
                             <StackLayout>
                                 <Image Source="{Binding Url}" WidthRequest="150" />
+                                <Button Text="Download" CommandParameter="{Binding Url}"  Clicked="OnDownloadClicked" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>

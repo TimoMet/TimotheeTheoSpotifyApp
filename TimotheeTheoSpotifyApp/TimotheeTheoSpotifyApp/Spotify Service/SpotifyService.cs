@@ -7,9 +7,6 @@ namespace TimotheeTheoSpotifyApp.Spotify_Service
 {
     class SpotifyService
     {
-        private const string Token =
-            "BQAbQkR7umd4KWlUZhkfzmRl125khjyGf0Br0RqGndiQcliiWynTmwBFfEce6z9hSWJD34OjvibwpvvS6ejxeezboB6ReQrQKht8UZgbJBBEKq1X_TPn";
-
         private readonly SpotifyClient _client;
         private readonly SpotifyClientConfig _config;
 
@@ -38,9 +35,18 @@ namespace TimotheeTheoSpotifyApp.Spotify_Service
 
         public async Task<PublicUser> GetPersonalInformation(string id = "me")
         {
-            var personalInformation = new UserProfileClient(_config.BuildAPIConnector()).Get(id);
-            await personalInformation.ConfigureAwait(false);
-            return await personalInformation;
+            try
+            {
+                var personalInformation = new UserProfileClient(_config.BuildAPIConnector()).Get(id);
+                await personalInformation.ConfigureAwait(false);
+                return await personalInformation;
+            }
+            catch (Exception e)
+            {
+                Console.Error.WriteLine(e);
+                return null;
+            }
+           
         }
     }
 }

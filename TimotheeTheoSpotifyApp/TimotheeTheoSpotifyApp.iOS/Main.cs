@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Foundation;
 using UIKit;
+using Xamarin.Forms;
 
 namespace TimotheeTheoSpotifyApp.iOS
 {
@@ -14,6 +15,8 @@ namespace TimotheeTheoSpotifyApp.iOS
             // if you want to use a different Application Delegate class from "AppDelegate"
             // you can specify it here.
             UIApplication.Main(args, null, "AppDelegate");
+            
+            DependencyService.Register<IFileDownloader, FileDownloader>();
         }
     }
 }

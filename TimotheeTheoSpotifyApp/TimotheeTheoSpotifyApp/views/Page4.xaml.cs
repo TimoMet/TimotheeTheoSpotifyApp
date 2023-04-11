@@ -27,5 +27,23 @@ namespace TimotheeTheoSpotifyApp.Views
         {
             LoadData(((Entry)sender).Text);
         }
+
+
+        private async void Download(string url)
+        {
+            var dateTime = DateTime.Now;
+            var originalName = url.Split('?')[0].Split('/').Last();
+            var extension = originalName.Contains('.') ? originalName.Split('.').Last() : "webp"; //some images don't have an extension
+            var fileName = dateTime.ToString("yyyyMMdd_HHmmss") + '.' + extension;
+            var fileDownloader = DependencyService.Get<IFileDownloader>();
+            await fileDownloader.DownloadFile(url, fileName);
+        }
+        
+        private void OnDownloadClicked(object sender, EventArgs e)
+        {
+            var url = ((Button)sender).CommandParameter;
+            Console.WriteLine(url);
+            Download(url.ToString());
+        }
     }
 }
