@@ -15,7 +15,7 @@
           }
         }
       },
-      "SpotifyAPI.Web/6.2.2": {
+      "SpotifyAPI.Web/7.0.0": {
         "type": "package",
         "dependencies": {
           "Newtonsoft.Json": "13.0.1"
@@ -1173,9 +1173,9 @@
       },
       "TimotheeTheoSpotifyApp/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
-          "SpotifyAPI.Web": "6.2.2",
+          "SpotifyAPI.Web": "7.0.0",
           "Xamarin.Forms": "5.0.0.2012"
         },
         "compile": {
@@ -1215,20 +1215,22 @@
         "packageIcon.png"
       ]
     },
-    "SpotifyAPI.Web/6.2.2": {
-      "sha512": "WNAqhQYg1xXNCPZ4QKavwFl05wXZ8XiHT89u3SrMeGlPPpJETzKmfozk5BoLaTCRV2HyceGERRrHOvK/BNtC2A==",
+    "SpotifyAPI.Web/7.0.0": {
+      "sha512": "XZtF0OtzwytroHuHxMxdDtNv6Ybb9vV6TwvFei1oWch001ahTerbPckLGjx+h/LOEiX5Z+LuQ6Z1YXTaoA4BLw==",
       "type": "package",
-      "path": "spotifyapi.web/6.2.2",
+      "path": "spotifyapi.web/7.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "lib/net5.0/SpotifyAPI.Web.dll",
         "lib/net5.0/SpotifyAPI.Web.xml",
-        "lib/netstandard2.0/SpotifyAPI.Web.dll",
-        "lib/netstandard2.0/SpotifyAPI.Web.xml",
+        "lib/net6.0/SpotifyAPI.Web.dll",
+        "lib/net6.0/SpotifyAPI.Web.xml",
+        "lib/net7.0/SpotifyAPI.Web.dll",
+        "lib/net7.0/SpotifyAPI.Web.xml",
         "lib/netstandard2.1/SpotifyAPI.Web.dll",
         "lib/netstandard2.1/SpotifyAPI.Web.xml",
-        "spotifyapi.web.6.2.2.nupkg.sha512",
+        "spotifyapi.web.7.0.0.nupkg.sha512",
         "spotifyapi.web.nuspec"
       ]
     },
@@ -2282,7 +2284,7 @@
   },
   "projectFileDependencyGroups": {
     "MonoAndroid,Version=v11.0": [
-      "SpotifyAPI.Web >= 6.2.2",
+      "SpotifyAPI.Web >= 7.0.0",
       "TimotheeTheoSpotifyApp >= 1.0.0",
       "Xamarin.Forms >= 5.0.0.2012"
     ]
@@ -2324,7 +2326,7 @@
         "dependencies": {
           "SpotifyAPI.Web": {
             "target": "Package",
-            "version": "[6.2.2, )"
+            "version": "[7.0.0, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

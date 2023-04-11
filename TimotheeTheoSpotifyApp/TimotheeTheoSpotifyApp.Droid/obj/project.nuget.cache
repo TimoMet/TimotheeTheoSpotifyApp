@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "kqhM2p6Azs0tFSfaUJ20d/BfuuizQjSGncNHYpnILHWPLM2IC+N9WdHUppZdIBrZEHDpHQYpajPqp6kvo2b1Ng==",
+  "dgSpecHash": "kxJ4+XXx7OVEPeBh5KRMbZph+thcVjT3mlRUEUPQFsRsPUorFh3yGxbAYfUF9rb4bztbjjeZ9n2PbCoCELzrzg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Theo2\\RiderProjects\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp\\TimotheeTheoSpotifyApp.Droid\\TimotheeTheoSpotifyApp.Droid.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Theo2\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
-    "C:\\Users\\Theo2\\.nuget\\packages\\spotifyapi.web\\6.2.2\\spotifyapi.web.6.2.2.nupkg.sha512",
+    "C:\\Users\\Theo2\\.nuget\\packages\\spotifyapi.web\\7.0.0\\spotifyapi.web.7.0.0.nupkg.sha512",
     "C:\\Users\\Theo2\\.nuget\\packages\\xamarin.androidx.activity\\1.1.0.5\\xamarin.androidx.activity.1.1.0.5.nupkg.sha512",
     "C:\\Users\\Theo2\\.nuget\\packages\\xamarin.androidx.annotation\\1.1.0.8\\xamarin.androidx.annotation.1.1.0.8.nupkg.sha512",
     "C:\\Users\\Theo2\\.nuget\\packages\\xamarin.androidx.annotation.experimental\\1.0.0.8\\xamarin.androidx.annotation.experimental.1.0.0.8.nupkg.sha512",
