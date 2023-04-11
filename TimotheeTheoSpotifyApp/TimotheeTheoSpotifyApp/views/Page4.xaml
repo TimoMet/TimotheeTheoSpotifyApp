@@ -5,36 +5,35 @@
              xmlns:web="clr-namespace:SpotifyAPI.Web;assembly=SpotifyAPI.Web"
              x:Class="TimotheeTheoSpotifyApp.Views.Page4"
              x:DataType="web:PublicUser">
-    <FlexLayout
-        Direction="Column"
-        AlignItems="Center"
-        JustifyContent="SpaceEvenly">
+    <ContentPage.Content>
+        <StackLayout>
 
-        
-        <Label Text="Choisir un id d'utilisateur : " MinimumHeightRequest="50"
-               HeightRequest="100"/>
-        <Entry Completed="OnIdSet"  HeightRequest="120" WidthRequest="100" />
-        
-
-        <ListView ItemsSource="{Binding Images}" RowHeight="150">
-            <ListView.ItemTemplate >
-                <DataTemplate >
-                    <ViewCell x:DataType="web:Image" >
-                        <StackLayout >
-                            <Image Source="{Binding Url}"  WidthRequest="150"/>
-                        </StackLayout>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-
-        <Label Text="{Binding DisplayName, StringFormat='Nom : {0}'}" HeightRequest="50" />
-        <Label Text="{Binding Followers.Total, StringFormat='Nombre de followers : {0}'}"  HeightRequest="50"/>
-        <Label Text="{Binding Id, StringFormat='Id : {0}'}" HeightRequest="50" />
-        <Label Text="{Binding Type, StringFormat='Type : {0}'}"  HeightRequest="50"/>
-        <Label Text="{Binding Uri, StringFormat='Uri : {0}'}"  HeightRequest="50"/>
-        <Label Text="{Binding Href, StringFormat='Href : {0}'}"  />
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Choisir un id d'utilisateur : " />
+                <Entry Completed="OnIdSet" WidthRequest="200" />
+            </StackLayout>
 
 
-    </FlexLayout>
+            <Label Text="{Binding DisplayName, StringFormat='Nom : {0:F2}'}" />
+            <Label Text="{Binding Followers.Total, StringFormat='Nombre de followers : {0:F2}'}" />
+            <Label Text="{Binding Id, StringFormat='Id : {0:F2}'}" />
+            <Label Text="{Binding Type, StringFormat='Type : {0:F2}'}" />
+            <Label Text="{Binding Uri, StringFormat='Uri : {0:F2}'}" />
+            <Label Text="{Binding Href, StringFormat='Href : {0:F2}'}" />
+
+            <ListView ItemsSource="{Binding Images}" RowHeight="150">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell x:DataType="web:Image">
+                            <StackLayout>
+                                <Image Source="{Binding Url}" WidthRequest="150" />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+
+
+        </StackLayout>
+    </ContentPage.Content>
 </ContentPage>

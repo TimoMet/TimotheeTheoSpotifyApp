@@ -19,16 +19,8 @@ namespace TimotheeTheoSpotifyApp.Views
 
         private async void LoadData(string id = "me")
         {
-            try
-            {
-                var user = await new SpotifyService().GetPersonalInformation(id);
-                BindingContext = user;
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e);
-                throw;
-            }
+            var user = await new SpotifyService().GetPersonalInformation(id);
+            BindingContext = user;
         }
 
         private void OnIdSet(object sender, EventArgs e)
