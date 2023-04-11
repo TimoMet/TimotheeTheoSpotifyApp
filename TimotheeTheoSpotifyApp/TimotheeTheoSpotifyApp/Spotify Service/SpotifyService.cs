@@ -1,30 +1,46 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Threading.Tasks;
 using SpotifyAPI.Web;
+using SpotifyAPI.Web.Http;
 
 namespace TimotheeTheoSpotifyApp.Spotify_Service
 {
     class SpotifyService
     {
-        private const string Token = "BQAFYR9k8v6ZF0P5MSyqlMMblFevlXg-RznwfEtsL2akDwnjoAXuXp6BhcGEyeyG44GCNHUjVPCzgoROiVVhF7LJcQPhhk_feiIQa2MhfPckAj0OCkiF";
-        private readonly SpotifyClient Client;
+        private const string Token =
+            "BQAbQkR7umd4KWlUZhkfzmRl125khjyGf0Br0RqGndiQcliiWynTmwBFfEce6z9hSWJD34OjvibwpvvS6ejxeezboB6ReQrQKht8UZgbJBBEKq1X_TPn";
+
+        private readonly SpotifyClient _client;
+        private readonly SpotifyClientConfig _config;
 
         public SpotifyService()
         {
-            Client = new SpotifyClient(Token);
+            _config = SpotifyClientConfig
+                .CreateDefault()
+                .WithAuthenticator(new ClientCredentialsAuthenticator("068028456d0849e9a7b5098c805f0e39",
+                    "0a7af15889384de084646ad43a486849"));
+            _client = new SpotifyClient(_config);
         }
 
         public async Task<FullAlbum> GetAGoodBringMeTheHorizonAlbum()
         {
-            var album = Client.Albums.Get("0e1WaSNDZnoPixaxDNdWo4");
+            var album = _client.Albums.Get("0e1WaSNDZnoPixaxDNdWo4");
             await album.ConfigureAwait(false);
             return await album;
         }
 
         public async Task<FullArtist> GetImagineDragons()
         {
-            var artist = Client.Artists.Get("53XhwfbYqKCa1cC15pYq2q");
+            var artist = _client.Artists.Get("53XhwfbYqKCa1cC15pYq2q");
             await artist.ConfigureAwait(false);
             return await artist;
+        }
+
+        public async Task<PublicUser> GetPersonalInformation(string id = "me")
+        {
+            var personalInformation = new UserProfileClient(_config.BuildAPIConnector()).Get(id);
+            await personalInformation.ConfigureAwait(false);
+            return await personalInformation;
         }
     }
 }

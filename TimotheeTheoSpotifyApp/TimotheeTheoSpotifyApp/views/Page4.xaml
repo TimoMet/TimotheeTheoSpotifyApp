@@ -2,12 +2,38 @@
 
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="TimotheeTheoSpotifyApp.Views.Page4">
-    <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Hello, world!"
-                   VerticalOptions="CenterAndExpand"
-                   HorizontalOptions="CenterAndExpand" />
+             xmlns:web="clr-namespace:SpotifyAPI.Web;assembly=SpotifyAPI.Web"
+             x:Class="TimotheeTheoSpotifyApp.Views.Page4"
+             x:DataType="web:PublicUser">
+    <FlexLayout
+        Direction="Column"
+        AlignItems="Center"
+        JustifyContent="SpaceEvenly">
+
+        <StackLayout Orientation="Horizontal">
+            <Label Text="Choisir un id d'utilisateur : " MinimumHeightRequest="50"/>
+            <Entry Completed="OnIdSet" MinimumHeightRequest="50" />
         </StackLayout>
-    </ContentPage.Content>
+
+        <ListView ItemsSource="{Binding Images}" RowHeight="100">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell x:DataType="web:Image">
+                        <StackLayout>
+                            <Image Source="{Binding Url}" />
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+        <Label Text="{Binding DisplayName, StringFormat='Nom : {0}'}" />
+        <Label Text="{Binding Followers.Total, StringFormat='Nombre de followers : {0}'}" />
+        <Label Text="{Binding Id, StringFormat='Id : {0}'}" />
+        <Label Text="{Binding Type, StringFormat='Type : {0}'}" />
+        <Label Text="{Binding Uri, StringFormat='Uri : {0}'}" />
+        <Label Text="{Binding Href, StringFormat='Href : {0}'}" />
+
+
+    </FlexLayout>
 </ContentPage>

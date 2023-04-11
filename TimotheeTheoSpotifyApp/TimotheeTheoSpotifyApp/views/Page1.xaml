@@ -22,7 +22,8 @@
                HorizontalTextAlignment="Center"
                FontSize="Subtitle" />
 
-        <StackLayout Orientation="Horizontal"
+        
+        <StackLayout Orientation="Horizontal" 
                      HeightRequest="100">
             <Image Source="spotify.png"
                    WidthRequest="120"
