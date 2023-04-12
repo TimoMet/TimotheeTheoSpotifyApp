@@ -21,13 +21,13 @@
             <Label Text="{Binding Uri, StringFormat='Uri : {0:F2}'}" />
             <Label Text="{Binding Href, StringFormat='Href : {0:F2}'}" />
 
-            <ListView ItemsSource="{Binding Images}" RowHeight="150">
+            <ListView ItemsSource="{Binding Images}" RowHeight="250">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <ViewCell x:DataType="web:Image">
-                            <StackLayout>
+                            <StackLayout HeightRequest="250">
                                 <Image Source="{Binding Url}" WidthRequest="150" />
-                                <Button Text="Download" CommandParameter="{Binding Url}"  Clicked="OnDownloadClicked" />
+                                <Button HeightRequest="50"  Text="Download" CommandParameter="{Binding Url}"  Clicked="OnDownloadClicked" />
                             </StackLayout>
                         </ViewCell>
                     </DataTemplate>
