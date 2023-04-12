@@ -4,22 +4,23 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:web="clr-namespace:SpotifyAPI.Web;assembly=SpotifyAPI.Web"
              x:Class="TimotheeTheoSpotifyApp.Views.Page4"
-             x:DataType="web:PublicUser">
+             x:DataType="web:PublicUser"
+             BackgroundColor="#141920">
     <ContentPage.Content>
         <StackLayout>
 
             <StackLayout Orientation="Horizontal">
-                <Label Text="Choisir un id d'utilisateur : " />
-                <Entry Completed="OnIdSet" WidthRequest="200" />
+                <Label  Text="Choisir un id d'utilisateur : "  TextColor="White"/>
+                <Entry Completed="OnIdSet" WidthRequest="200" TextColor="Black" BackgroundColor="White"/>
             </StackLayout>
 
 
-            <Label Text="{Binding DisplayName, StringFormat='Nom : {0:F2}'}" />
-            <Label Text="{Binding Followers.Total, StringFormat='Nombre de followers : {0:F2}'}" />
-            <Label Text="{Binding Id, StringFormat='Id : {0:F2}'}" />
-            <Label Text="{Binding Type, StringFormat='Type : {0:F2}'}" />
-            <Label Text="{Binding Uri, StringFormat='Uri : {0:F2}'}" />
-            <Label Text="{Binding Href, StringFormat='Href : {0:F2}'}" />
+            <Label Text="{Binding DisplayName, StringFormat='Nom : {0:F2}'}" TextColor="White"/>
+            <Label Text="{Binding Followers.Total, StringFormat='Nombre de followers : {0:F2}'}" TextColor="White"/>
+            <Label Text="{Binding Id, StringFormat='Id : {0:F2}'}" TextColor="White" />
+            <Label Text="{Binding Type, StringFormat='Type : {0:F2}'}" TextColor="White"/>
+            <Label Text="{Binding Uri, StringFormat='Uri : {0:F2}'}" TextColor="White"/>
+            <Label Text="{Binding Href, StringFormat='Href : {0:F2}'}" TextColor="White"/>
 
             <ListView ItemsSource="{Binding Images}" RowHeight="250">
                 <ListView.ItemTemplate>

@@ -27,7 +27,7 @@
              Icon="diskLogo.png">
             <ShellContent ContentTemplate="{DataTemplate views:Page3}" />
         </Tab>
-        <Tab Title="Supplément"
+        <Tab Title="Utilisateur"
              Icon="logospot.png">
             <ShellContent ContentTemplate="{DataTemplate views:Page4}" />
         </Tab>
